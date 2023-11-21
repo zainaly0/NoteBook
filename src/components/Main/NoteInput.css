@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   display: flex;
+}
+
+.sectionRight{
+    margin: 3rem;
+    height: 450px;
+    width: 80%;
+    border-radius: 25px;
+    padding: 16px;
+    border: 2px solid gray;
+    box-shadow: 1px 1px 4px gray, -1px -1px 4px gray;
+}
+
+.noteinput{
+    float: left;
+    height: 40px;
+    width: 700px;
+}
+
+textarea{
+    margin-top: 10px;
+    float: left;
+    width: 1200px;
+    height: 25rem;
+
+}
+.noteinput, textarea{
+    border-radius: 15px;
+    /* border: 1px solid gray; */
+    border: none;
+    outline: none;
+    font-size: larger;
+    font-weight: 800;
+    padding: 0 10px;
+}
+
+.btn{
+    position: relative;
+    bottom: 4rem;
+    height: 40px;
+    width: 120px;
+    margin-right: 5px;
+    cursor: pointer;
+    background: #000;
+    color: white;
+}
+

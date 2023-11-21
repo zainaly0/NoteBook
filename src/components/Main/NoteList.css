@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.notelist{
+    float: left;
+    width: 16rem;
+    background-color: rgb(229, 231, 235);
+    height: 37rem;
+   
+}
+
+#button{
+    font-size: 1.8rem;
+    font-weight: 400;
+    border: 1px solid black;
+    margin: 1px 3px 1px 5px;
+    width: 15rem;
+    /* background-color: rgb(229, 231, 235); */
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+
+.tbody__tr{
+    display: flex;
+    font-size: 1.6rem;
+    margin: .2rem .2rem .2rem 1rem;
+    /* border: 1px solid white; */
+}
+
+.list__button{
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 400;
+    /* border: 1px solid black; */
+    margin: 1px 3px 1px 1px;
+    width: 14rem;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    height: 102px;
+    width: 100%;
+    background-color:rgb(229, 231, 235);
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.social__links{
+    display: auto;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+a{
+    color: rgb(87, 87, 87);
+    padding-right: .7rem;
+}
